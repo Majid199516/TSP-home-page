@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Iransansx !important;
+  box-sizing: border-box !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.mat-expansion-indicator::after {
+  color: #12b48b !important;
+  width: 4px;
+  height: 4px;
+  display: flex;
+  justify-content: baseline;
+  box-sizing: content-box;
+}
+.mat-expansion-indicator {
+  margin: 0;
+  transform-origin: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mat-expansion-panel {
+  border: none;
+  padding: 20px;
+  background: #f5f7fa !important;
+}
+.mat-expansion-panel-header-title {
+  flex-basis: content;
+}
+.mat-expansion-panel-header {
+  background: #f5f7fa !important;
+}
+/* mat-expansion-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .mat-expansion-indicator::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+mat-expansion-panel p,
+mat-expansion-panel li {
+  margin: 24px 0 0;
+  color: #3d3d3d;
+  /* text-align: right; */
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+mat-accordion {
+  width: 100%;
+}
+mat-expansion-panel p span {
+  font-family: IranSansNum !important;
+}
+mat-panel-title {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 8px;
+}
+.mat-expansion-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: none !important;
+}
+.custom-header .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+}

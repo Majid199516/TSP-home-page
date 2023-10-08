@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7fa;
+}
+header {
+  width: 100%;
+}
+
+.container h2 {
+  color: #204066;
+  font-family: Anjoman;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 200px 0 60px;
+}
+.container p {
+  width: 946px;
+  height: 171px;
+  flex-shrink: 0;
+  color: #3d3d3d;
+  text-align: center;
+  font-family: IRANSansX;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  margin: 0 0 60px;
+}
+.bussiness-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: IranSansX;
+}
+.bussiness-info form fieldset {
+  border: none;
+  color: #3d3d3d;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+.bussiness-info form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 523px;
+  flex-direction: column;
+  gap: 8px;
+}
+.bussiness-info form div input {
+  font-family: iransansnum;
+  color: #616161;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  align-self: stretch;
+  height: 42px;
+  padding: 8px 12px;
+  width: 395px;
+  border-radius: 4px;
+  border: 1px solid #d1d1d1;
+  outline: none;
+  box-sizing: border-box;
+}
+.bussiness-info form button {
+  display: flex;
+  width: 27.5%;
+  height: 40px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  background: #f27f51;
+  border-radius: 8px;
+  color: #fff;
+  font-family: IRANSansX;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  border: none;
+  outline: none;
+  margin: 24px auto 200px;
+}
+.bullets,
+.semicircles,
+.orange-semicircle,
+.row-bullets {
+  position: absolute;
+  display: flex;
+  gap: 14px;
+}
+.bullets {
+  top: 55px;
+  left: 0;
+  flex-direction: column;
+}
+.orange-semicircle {
+  left: 0;
+  top: 594px;
+}
+.semicircles {
+  right: 0;
+  top: 263px;
+}
+.row-bullets {
+  right: 0;
+  top: 1066px;
+}
+form button:hover,
+form input:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

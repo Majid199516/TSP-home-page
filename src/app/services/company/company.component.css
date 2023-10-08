@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin: 200px 0 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h2 {
+  color: #3d3d3d;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+.bussiness-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bussiness-info form {
+  margin: 60px 440px 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.bussiness-info fieldset {
+  border: none;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.bussiness-info form > input {
+  font-family: IranSansnum !important;
+  width: 45%;
+  height: 40px;
+  padding: 8px 12px;
+  align-items: center;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #d1d1d1;
+}
+.bussiness-info form div {
+  display: flex;
+  width: 100%;
+}
+.bussiness-info form div label {
+  font-family: IranSansNum !important;
+  margin: 0 8px 0 4px;
+  color: #242424;
+  font-size: 12px;
+  font-weight: 700;
+}
+.bussiness-info form div input {
+  margin: 0 0 0 32px;
+  outline: none;
+}
+.bussiness-info form button {
+  border-radius: 8px;
+  background: #f27f51;
+  display: flex;
+  width: 270px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  border: none;
+  margin: 72px auto 0;
+  outline: none;
+  justify-self: center;
+}
+.bussiness-info button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.bussiness-info input:hover,
+.bussiness-info label:hover {
+  cursor: pointer;
+}
+.signin-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.links a {
+  text-decoration: none;
+}
+.links a:active,
+.links a:visited,
+.link a:link {
+  color: inherit;
+}

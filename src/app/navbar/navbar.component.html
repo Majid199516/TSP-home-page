@@ -1,0 +1,39 @@
+<nav class="navbar" [class.navbar-scrolled]="scrolled">
+  <div class="nav-logo">
+    <img
+      *ngIf="scrolled"
+      class="taksa-logo"
+      src="assets/shared/images/taksa-colored.png"
+      alt="taksa.logo"
+    />
+    <img
+      *ngIf="!scrolled"
+      class="taksa-logo"
+      src="assets/shared/images/taksa-03.png"
+      alt="taksa.logo"
+    />
+  </div>
+  <div class="links">
+    <!-- <a href="#">خانه</a>
+      <a href="#">خدمات</a>
+      <a href="#">تعرفه</a>
+    <a href="#">آموزش</a>
+    <a href="#">خبرنامه</a>
+    <a href="#">پشتیبانی</a>
+    <a href="#">درباره ما</a> -->
+    <a routerLink="/home-page" routerLinkActive="active"> خانه </a>
+    <a routerLink="/service-menu" routerLinkActive="active"> خدمات </a>
+    <a> تعرفه </a>
+    <a> آموزش </a>
+    <a> خبرنامه </a>
+    <a> پشتیبانی </a>
+    <a routerLink="/about-us" routerLinkActive="active"> درباره ما </a>
+  </div>
+  <input
+    class="signin-btn"
+    type="button"
+    value="ورود | ثبت‌نام"
+    (click)="openTSP()"
+  />
+  <hr id="navbar-hr" *ngIf="!scrolled" />
+</nav>

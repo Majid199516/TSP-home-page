@@ -1,0 +1,207 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+header {
+  width: 100%;
+}
+.container .first-step,
+.container .second-step,
+.container .third-step,
+.container .forth-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px 0 0;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.first-step,
+.third-step {
+  background: #f5f7fa;
+}
+.container h2 {
+  color: #204066;
+  font-family: Anjoman !important;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0 0 60px;
+}
+.container h2::first-letter {
+  color: rgba(242, 127, 81, 0.3);
+  font-family: IRANSansNum !important;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+.container p {
+  color: #3d3d3d;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0 0 60px;
+}
+.container p span {
+  color: #3d3d3d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.container .first-step button,
+.container .forth-step button {
+  border-radius: 11.995px;
+  border: 1px solid #12b48b;
+  background: #12b48b;
+  margin: auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 273px;
+  height: 51px;
+  padding: 11.995px 26.988px;
+  margin: 0 0 200px;
+}
+.first-step .bullets {
+  position: absolute;
+  right: 0;
+  top: 65px;
+  display: flex;
+  gap: 18px;
+}
+.first-step .semi-circle {
+  position: absolute;
+  left: 0;
+  top: 432px;
+}
+.packages {
+  display: flex;
+  gap: 24px;
+}
+.lite-package,
+.plus-package,
+.independent-package {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #20529540;
+  width: 406px;
+  height: 538px;
+  padding: 32px;
+  gap: 24px;
+  margin: 0 0 200px;
+}
+hr {
+  width: 291px;
+  flex-shrink: 0;
+}
+.packages .plus-package h3,
+.packages .lite-package h3,
+.independent-package h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 47.98px;
+}
+.packages .lite-package h4,
+.packages .plus-package h4,
+.independent-package h4 {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.packages .plus-package p,
+.packages .lite-package p,
+.independent-package p {
+  font-family: IranSansNum !important;
+  color: #424242;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.packages ul li,
+.independent-package ul li {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 344px;
+}
+.packages button,
+.independent-package button {
+  border-radius: 11.995px;
+  border: 1px solid #12b48b;
+  background: #12b48b;
+  color: #fff;
+  width: 273px;
+  height: 51px;
+  padding: 11.995px 26.988px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.second-step .bullets {
+  position: absolute;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  left: 0;
+  top: 439px;
+}
+.second-step .green-semi-circles {
+  position: absolute;
+  right: 0;
+  top: 98px;
+}
+.third-step .overflow-bullets {
+  position: absolute;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  right: 0;
+  top: -125px;
+}
+.third-step .circle {
+  position: absolute;
+  top: 67px;
+  left: 178px;
+}
+.third-step .bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: absolute;
+  top: 528px;
+  left: 0;
+}
+.third-step .semi-circle {
+  position: absolute;
+  right: 0;
+  top: 889px;
+}
+.forth-step .semi-circles {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+.forth-step .bullets {
+  position: absolute;
+  right: 0;
+  top: 570px;
+  display: flex;
+  gap: 14px;
+}
+.container button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

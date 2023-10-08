@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "IRANSansX";
+  src: url(../assets/shared/fonts/IRANSansX-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSansX";
+  src: url(../assets/shared/fonts/IRANSansX-Bold.ttf) format(truetype);
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranSansNum";
+  src: url(../assets/shared/fonts/IRANSansXFaNum-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anjoman";
+  src: url(../assets/shared/fonts/Anjoman-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url(../assets/shared/fonts/Anjoman-Bold.ttf) format(truetype);
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}

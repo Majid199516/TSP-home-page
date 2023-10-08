@@ -1,0 +1,796 @@
+.container {
+  background-position: center;
+  background-size: cover;
+}
+.head {
+  position: relative;
+}
+.taksa-head-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  position: absolute;
+  left: 50%;
+  top: 88vh;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.taksa-head-box > div {
+  background-color: #fff;
+  width: 210px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #3d3d3d;
+  padding: 40px 0px;
+}
+.taksa-head-box > div span {
+  font-family: IranSansNum !important;
+}
+.signin-btn:hover,
+.links a:hover,
+.add-invoice:hover {
+  cursor: pointer;
+}
+.articles {
+  margin-top: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles .article-header {
+  color: #204066;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 48px;
+  font-family: Anjoman !important;
+}
+.free-sign-up {
+  display: flex;
+  width: 100%;
+  margin-top: 166px;
+  align-items: center;
+}
+.articles h5 {
+  color: #3d3d3d;
+}
+.free-sign-up li div {
+  align-items: center;
+}
+.free-sign-up li {
+  list-style: none;
+  margin: 36px;
+}
+.free-sign-up .sign-up-img {
+  width: 40%;
+  border-radius: 8px;
+  margin-left: 246px;
+  position: relative;
+  z-index: 1;
+  flex-grow: 1;
+}
+.invoice-sample1 {
+  width: 479px;
+  height: 339px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+}
+.free-sign-up li div h6 {
+  margin-right: 12px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #3d3d3d;
+}
+.free-sign-up li div p {
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #242424;
+  margin-top: 12px;
+}
+.sign-up-guide {
+  width: 60%;
+  margin-right: 140px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  box-sizing: content-box;
+  word-spacing: 2px;
+}
+.sign-up-guide p {
+  padding-right: 35px;
+  font-size: 14px !important;
+}
+.sign-up-guide a {
+  color: #2e81ff;
+  font-size: 14px !important;
+}
+.sign-up-guide li div {
+  display: flex;
+}
+.shadow {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  background: #f5f7fa;
+  height: 530px;
+  z-index: 0;
+}
+.invoice-sample2 {
+  width: 311px;
+  height: 254px;
+  border-radius: 7px;
+  z-index: 2;
+  position: relative;
+  left: -260px;
+  top: 70px;
+  box-shadow: 0px 3.69125px 3.69125px 0px rgba(0, 0, 0, 0.4);
+}
+.add-invoice {
+  background-color: #f27f51;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  width: 254px;
+  height: 50px;
+  margin-right: 40px;
+  border: none;
+  border-radius: 8px;
+  transition: all 100ms;
+}
+.add-invoice:hover {
+  background-color: #f7662d;
+}
+
+.add-invoice:active {
+  background-color: #f7662d;
+}
+.signin-btn:hover {
+  opacity: 0.9;
+}
+.connected {
+  width: 81px;
+  height: 50px;
+  position: absolute;
+  z-index: 3;
+  top: 128px;
+  right: 200px;
+}
+.bullets {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+.bullets svg {
+  width: 72px;
+  height: 65px;
+  margin: 7px 0;
+}
+.taksa-advantages,
+.taksa-usage-avantages {
+  background: #f5f7fa;
+  width: 100%;
+}
+.taksa-usage-avantages {
+  margin-top: 208px;
+  position: relative;
+}
+.taksa-advantages h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: #204066;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: Anjoman !important;
+}
+.decription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.decription div p {
+  text-align: center;
+  font-family: IranSansNum !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 20px;
+  background-color: #fff;
+  margin: 0 2px;
+  box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.4);
+  border-radius: 100px;
+  width: 432px;
+  height: 64px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.decription .ladder {
+  margin: 25px 0;
+}
+.decription .left-side {
+  margin-top: 27px;
+  margin-bottom: 200px;
+}
+.decription .right-side p:nth-child(2) {
+  margin-top: 42px;
+  margin-bottom: 44px;
+}
+.decription .right-side:first-child {
+  margin-top: 45px;
+}
+.decription .left-side p:first-child {
+  margin-top: 29px;
+  margin-bottom: 38px;
+}
+.decription .left-side p:nth-child(2) {
+  margin-top: 38px;
+  margin-bottom: 44px;
+}
+.decription .bullet {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -62px;
+  right: 0;
+}
+.bullet svg {
+  margin-bottom: 15px;
+}
+.taksa-target {
+  width: 754px;
+  /* height: 410px; */
+  background-color: #204066;
+  margin: auto;
+  margin-bottom: 200px;
+  border-radius: 8px;
+  padding: 64px 65px 46px 66px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.taksa-bullets {
+  position: absolute;
+  left: 0;
+  top: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.taksa-target-title {
+  display: inline;
+  text-align: center;
+  font-family: Anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.taksa-target span:first-of-type {
+  position: absolute;
+  top: 65px;
+  right: 69px;
+}
+.target-article {
+  color: #fff;
+  text-align: justify;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 48px 97px 64px 98px;
+}
+.taksa-target span:last-of-type {
+  position: absolute;
+  bottom: 65px;
+  left: 69px;
+}
+.circle {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+  width: 63px;
+  height: 63px;
+}
+.circles {
+  position: absolute;
+  right: -78px;
+  top: 448px;
+}
+.add-invoice-steps h2 {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-family: Anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: #204066;
+}
+.add-invoice-steps {
+  display: flex;
+  flex-direction: column;
+  color: #204066;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+}
+.add-invoice-steps .odd-steps div p:first-of-type,
+.add-invoice-steps .even-steps div p:first-of-type {
+  font-family: IranSanSNum !important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+  box-sizing: content-box !important ;
+}
+.add-invoice-steps .odd-steps div p:nth-child(3) {
+  font-weight: 400;
+}
+.odd-steps {
+  display: flex;
+  gap: 145px;
+}
+
+.add-invoice-steps h2 {
+  display: block;
+  text-align: center;
+  font-family: Anjoman !important;
+}
+.odd-steps div {
+  text-align: center;
+}
+.view-of-steps img {
+  width: 1056.864px;
+  height: 215px;
+}
+.odd-steps p:last-child,
+.even-steps p:last-child {
+  width: 158px;
+  height: 30px;
+}
+
+.even-steps {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 150px;
+}
+.arrow {
+  position: absolute;
+  top: 720px;
+  right: 655px;
+}
+.taksa-start {
+  color: #f27f51;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-right: 500px;
+  margin-top: 20px;
+}
+.help-content {
+  margin-top: 233px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.help {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 200px 0;
+}
+#taksa-help {
+  width: 914px;
+  height: 663px;
+  transition: 1s;
+  transform: rotate(-3.459deg);
+  background-color: #f5f7fa;
+  border-radius: 8px;
+  z-index: 2;
+  box-sizing: content-box !important;
+}
+#soul {
+  position: absolute;
+}
+#soul::before {
+  content: " ";
+  width: 914px;
+  height: 663px;
+  border-radius: 8px;
+  background: #bfd3eb;
+  position: absolute;
+  z-index: -1;
+}
+.taksa-help p {
+  text-align: justify;
+  transform: rotate(3.459deg);
+  color: #3d3d3d;
+  text-align: justify;
+  font-family: IRANSansNum !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 0 110px 126px;
+}
+.taksa-help h2 {
+  transform: rotate(3.459deg);
+  margin: 75px 0 50px;
+  color: #204066;
+  text-align: center;
+  font-family: Anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.help .bullets {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  margin: 7px 3px;
+}
+.ribbon {
+  position: absolute;
+  left: 0;
+  bottom: -200px;
+  margin-bottom: 90px;
+}
+.solutions {
+  background: #f5f7fa;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+.solutions h2 {
+  color: #204066;
+  text-align: right;
+  font-family: Anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 200px auto 100px;
+}
+.semicircle1,
+.semicircle2,
+.semicircle3 {
+  position: absolute;
+  right: 0;
+}
+.semicircle1 {
+  top: 77px;
+}
+.semicircle2 {
+  top: 49px;
+}
+.semicircle3 {
+  top: 21px;
+}
+.connecting-taksa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.connecting-right-side,
+.connecting-left-side {
+  display: flex;
+  width: 415px;
+  height: 482px;
+  padding: 35.985px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: #fff;
+  margin-bottom: 200px;
+  box-sizing: content-box !important;
+}
+.connecting-left-side ul,
+.connecting-right-side ul {
+  align-self: self-start;
+  margin-right: 36px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.connecting-left-side h3,
+.connecting-right-side h3 {
+  text-align: center;
+  padding: 0 70px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.98px;
+}
+.connecting-taksa input {
+  width: 273px;
+  height: 51px;
+  padding: 11.995px 26.988px;
+  border-radius: 11.995px;
+  border: none;
+  background: #12b48b;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.connecting-taksa input:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.connecting-left-side {
+  gap: 70px;
+}
+.connecting-right-side {
+  gap: 55px;
+}
+.solutions .bullets {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 650px;
+}
+.questions {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3d3d3d;
+}
+.question {
+  background-color: #f5f7fa;
+  border-radius: 8px;
+  width: 710px;
+}
+.question-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 0 200px;
+}
+.questions .bullets {
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  top: 50px;
+}
+.questions h2 {
+  margin: 200px 0 100px;
+  color: #204066;
+  text-align: right;
+  font-family: Anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.questions .semicircles {
+  position: absolute;
+  top: 0;
+  left: 175px;
+}
+.common-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.questions .bullets2nd {
+  position: absolute;
+  left: 0;
+  top: 800px;
+}
+.questions input {
+  margin: 74px 0 200px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 2px solid #12b48b;
+  color: #12b48b;
+  width: 160px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  background-color: transparent;
+}
+.questions input:hover {
+  background-color: rgba(18, 180, 139, 0.3);
+  color: #fff;
+  cursor: pointer;
+}
+.check-mark {
+  list-style: none;
+}
+
+.check-mark li:before {
+  content: "✓ ";
+}
+.news {
+  background: #f5f7fa;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: #3d3d3d;
+}
+.news h2 {
+  margin: 200px 0 100px;
+  color: #204066;
+  font-family: anjoman !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.news-boxes {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.news-boxes a:hover {
+  cursor: pointer;
+  width: max-content;
+}
+.news-boxes > div {
+  width: 348px;
+  height: 513px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px 0px #abbed166;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.news-boxes > div > img {
+  width: 100%;
+  height: 244px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.news-boxes span {
+  padding: 8px;
+  border-radius: 24px;
+  background: #f27f5133;
+  width: 45px;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 24px 0px 16px;
+  color: #f27f51;
+}
+.news-boxes div:nth-child(2) div > span {
+  color: #205295;
+  background: #d8e5f83b;
+}
+.bullets2nd svg {
+  margin: 0 13px 0 5px;
+}
+.news .threeSemicircle {
+  position: absolute;
+  top: 5px;
+  right: -13px;
+  transform: rotate(-90deg);
+}
+.news-boxes h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.news-boxes > div > div {
+  padding: 0 16px 24px;
+}
+.news-boxes p {
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.news-boxes a {
+  color: #204066;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.news-boxes a svg {
+  margin-right: 4px;
+}
+.news-boxes a div {
+  display: flex;
+  align-items: flex-end;
+}
+.news input {
+  color: #12b48b;
+  padding: 10px 24px;
+  width: 160px;
+  border-radius: 8px;
+  border: 2px solid #12b48b;
+  background-color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 200px;
+}
+.news input {
+  cursor: pointer;
+}
+.news > .bullets-3rd {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 3px;
+}
+input {
+  outline: none;
+}

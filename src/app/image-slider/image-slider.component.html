@@ -1,0 +1,23 @@
+<div class="carousel-container">
+  <igx-carousel
+    [navigation]="false"
+    animationType="slide"
+    [interval]="7000"
+    [pause]="false"
+    #carousel
+  >
+    <igx-slide *ngFor="let slide of slides">
+      <div class="image-container">
+        <img [src]="slide.src" alt="image descriptions of hole websit" />
+        <div class="imageslider-title">
+          <h1 id="image-title">
+            {{ slide.title }}
+          </h1>
+          <p>
+            {{ slide.description }}
+          </p>
+        </div>
+      </div>
+    </igx-slide>
+  </igx-carousel>
+</div>
