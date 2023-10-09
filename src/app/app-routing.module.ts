@@ -1,3 +1,4 @@
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ServicesComponent } from './services/services.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -12,11 +13,12 @@ const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'questions', component: QuestionsComponent },
-  { path: 'company', component: CompanyComponent, data: { isCompany: true } },
+  { path: 'company', component: CompanyComponent },
   { path: 'direct-signUp', component: Service2Component },
   { path: 'service-menu', component: ServicesMenuComponent },
   { path: 'connecting-with-taksa', component: ServicesComponent },
   { path: '', redirectTo: 'home-page', pathMatch: 'full' },
+  { path: "**", component: PageNotFoundComponent }
 ];
 
 @NgModule({

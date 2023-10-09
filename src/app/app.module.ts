@@ -22,6 +22,7 @@ import {
 } from 'igniteui-angular';
 import { IgxGridModule } from 'igniteui-angular';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     ServicesMenuComponent,
     ImageSliderComponent,
     NavbarComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
