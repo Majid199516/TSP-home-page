@@ -1,13 +1,13 @@
-<nav class="navbar" [class.navbar-scrolled]="scrolled">
+<nav class="navbar" [class.navbar-scrolled]="isScrolled || isCompany">
   <div class="nav-logo">
     <img
-      *ngIf="scrolled"
+      *ngIf="isScrolled || isCompany"
       class="taksa-logo"
       src="assets/shared/images/taksa-colored.png"
       alt="taksa.logo"
     />
     <img
-      *ngIf="!scrolled"
+      *ngIf="!isScrolled && !isCompany"
       class="taksa-logo"
       src="assets/shared/images/taksa-03.png"
       alt="taksa.logo"
@@ -35,5 +35,5 @@
     value="ورود | ثبت‌نام"
     (click)="openTSP()"
   />
-  <hr id="navbar-hr" *ngIf="!scrolled" />
+  <hr id="navbar-hr" *ngIf="!isScrolled || !isCompany" />
 </nav>

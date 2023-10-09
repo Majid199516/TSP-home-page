@@ -11,21 +11,24 @@ import { filter } from 'rxjs/operators';
 })
 export class NavbarComponent implements OnInit {
   // name;
-  isCopmany = false
+  isScrolled = false
+  isCompany = false
+  numberofscroll: number = 0
   constructor(private router: Router) {
-    // console.log(this.router.getCurrentNavigation()?.extras);
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     )
       .subscribe((event) => {
         let myEvent: any = event;
         if (myEvent?.url === "/company") {
-          this.scrolled = true;
-          this.isCopmany = true
+          this.isCompany = true
+          console.log('if', typeof this.isCompany, typeof this.isScrolled);
+        }
+        else {
+          // this.isScrolled = false;
+          this.isCompany = false;
+          // console.log('else', this.isCompany, this.isScrolled);
 
-        } else {
-          this.isCopmany = false
-          this.scrolled = false;
         }
       });
 
@@ -38,18 +41,21 @@ export class NavbarComponent implements OnInit {
     // }
   }
 
-  scrolled = false
-  numberofscroll: number = 0
   @HostListener("window:scroll", [])
 
   onWindowScroll() {
     this.numberofscroll = window.pageYOffset;
-    if (this.numberofscroll || this.isCopmany) {
-      this.scrolled = true
-    } else {
-      this.scrolled = false
-      this.isCopmany = false
+    if (this.numberofscroll) {
+      this.isScrolled = true
     }
+    // else if (this.numberofscroll === 0 && this.isCompany) {
+    //   this.isScrolled = false
+    // }
+    else {
+      this.isScrolled = false
+      // this.isCompany = false
+    }
+
 
 
   }
